@@ -1,4 +1,4 @@
-let nota=5;
+let nota=0;
 
 if(nota >=90 && nota <=99){
     console.log("A")
@@ -21,3 +21,4 @@ else if(nota <50 && nota>=1){
 else {
     console.log("erro")
 }
+
