@@ -1,0 +1,27 @@
+<style>
+    h1{
+        font-family: sans-serif;
+    }
+    p{
+        font-weight: 600;
+        font-size: 3em;
+    }
+    body{
+        font-size: 16px;
+    }
+    ul{
+        line-height: 50px;
+        text-align: center;
+        text-decoration: underline;
+    }
+    #amerelo{
+        color:yellow
+    }
+    #vermelho{
+        color:red
+    }
+    #marron{
+        color:brown
+    }
+
+</style>
