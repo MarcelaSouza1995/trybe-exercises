@@ -1,7 +1,7 @@
-let salarioBruto = 3000;
-let salarioLiquido = undefined;
-let descontoINSS = undefined;
-let descontoIR = undefined;
+let salarioBruto = 6900;
+let salarioLiquido = 0 ;
+let descontoINSS = 0 ;
+let descontoIR = 0 ;
 
 //Calculo para desconto INSS
 if (salarioBruto <= 1556.94){
