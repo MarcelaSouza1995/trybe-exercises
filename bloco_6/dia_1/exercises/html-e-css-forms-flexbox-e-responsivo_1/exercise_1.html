@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário</title>
+    <style>
+      h1 {
+        font-size: 100px;
+        text-align: center;
+        color: purple;
+      }
+      body {
+        font-size: 30px;
+        background-color: rgb(211, 187, 211);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Formulário</h1>
+
+    <form action="text-name" method="GET">
+      <fieldset>
+        <label for="text-name">Nome:</label>
+        <input
+          type="text"
+          name="nome"
+          id="text-name"
+          maxlength="40"
+          size="40"
+          required
+          placeholder="Digite seu nome"
+        />
+        <br />
+
+        <label for="text-email">E-mail:</label>
+        <input
+          type="text"
+          name="email"
+          id="text-email"
+          maxlength="50"
+          size="50"
+          required
+          placeholder="Digite E-mail"
+        />
+        <br />
+
+        <label for="number-cpf">Seu CPF:</label>
+        <input
+          type="number"
+          name="CPF"
+          id="number-cpf"
+          maxlength="11"
+          size="11"
+          required
+          placeholder="Digite seu CPF"
+        />
+        <br />
+
+        <label for="text-endereco">Endereço:</label>
+        <input
+          type="text"
+          name="endereco"
+          id="text-endereco"
+          maxlength="200"
+          size="200"
+          required
+          placeholder="Digite seu endereço"
+        />
+        <br />
+
+        <label for="text-cidade">Cidade:</label>
+        <input
+          type="text"
+          name="cidade"
+          id="text-cidade"
+          maxlength="28"
+          size="28"
+          required
+          placeholder="Digite sua cidade"
+        />
+        <br />
+
+        <label for="lista-estados">Estado:</label>
+        <select name="estados" id="lista-estados"></select>
+        <br />
+
+        <label for="complemento"></label>complemento:
+        <input type="radio" id="casa" name="complemento" value="cs" />Casa
+        <input
+          type="radio"
+          id="apartamento"
+          name="complemento"
+          value="ap"
+        />Apartamento
+      </fieldset>
+      <fieldset>
+        <label for="textarea-resumo"></label>Resumo do Currículo:
+        <br />
+        <textarea
+          name="resumo"
+          id="textarea-resumo"
+          cols="30"
+          rows="10"
+        ></textarea>
+        <br />
+
+        <label for="textarea-cargo"></label>Cargo:
+        <br />
+        <textarea
+          name="cargo"
+          id="textarea-cargo"
+          cols="30"
+          rows="10"
+          required
+        ></textarea>
+        <br />
+
+        <label for="textarea-descricao-cargo"></label>Descrição do Cargo:
+        <br />
+        <textarea
+          name="descrição cargo"
+          id="textarea-descricao-cargo"
+          cols="30"
+          rows="10"
+          required
+          maxlength="500"
+          size="500"
+        ></textarea>
+        <br />
+        <label for="textDataInicio">Data de início:</label>
+        <input
+          type="text"
+          id="textDataInicio"
+          name="dataInicio"
+          placeholder="dd/mm/aaaa"
+        />
+      </fieldset>
+      <button type="submit">Enviar</button>
+    </form>
+    <script src="scripts.js"></script>
+  </body>
+</html>
